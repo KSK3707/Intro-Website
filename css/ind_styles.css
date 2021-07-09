@@ -1,0 +1,22 @@
+﻿html {
+    height: 100%;
+    background-color: #ff80ff;
+    background-size: 100% 100%;
+}
+
+.jumbotron {
+    background-image: linear-gradient(#99ebff, #ff80ff);
+    background-size: 100% 100%;
+}
+
+.navbar {
+    background-image: linear-gradient(#99ff99, #99ebff);
+}
+
+a {
+    color: #ffffe6;
+}
+
+.table{
+    text-align: left;
+}

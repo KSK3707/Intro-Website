@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../css/feed_styles.css" />
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="./../img/heart-fill.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            KSK
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html">Home</a>
+                <a class="nav-item nav-link" href="./hobbies.html">Hobbies</a>
+                <a class="nav-item nav-link active" href="#">Feedback<span class="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
+    <div class="gradient1">
+        <div class="mx-5 text">
+            <p>Heeeeeey feel free to let me know what you think about the website i.e., the skills I displayed in making it. I'll let you in on a little secret: all it takes is faith, trust, and Bootstrap.</p>
+            <p>Once again, a clarifier for those of you that take everything literally: that was a joke. Also, below, for your viewing pleasure, is feedback from those that came before you, provided they took the time to let me know what they thought. Which hopefully atleast one person did.</p>
+            <p>But, then again, how much time does anyone really have to give to things they don't really care that much about when all of us are already so pressed for time that we rarely manage any significant efforts towards the things we love. Then again, it has been said that if you truly love something, you'll make time for it no matter the circumstances. But is it really quality time spent if you're stretching yourself too thin just to prove to yourself/someone else that yes, you <i>do</i> love the thing? I mean...okay, let's not pitch ourselves headfirst into an existential crisis.</p>
+            <p>Point is, I'd really appreciate it if you took a little time to fill out the form below letting me know your thoughts. And if you can't/don't, that's totally cool too.</p>
+            <p class="mb-0">Thanks for visiting!</p>
+        </div>
+    </div>
+    <div class="bottom_page text py-3">
+        <div class="mx-5">
+            <div class="mb-3">
+                <table class="table mx-2" id="feed_table">
+                    <caption>Please fill out the form to see previous reviews~</caption>
+                </table>
+            </div>
+            <div class="mx-5">
+                <form id="form">
+                    <div class="form-group row">
+                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputSkill" class="col-sm-2 col-form-label">Skill</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputSkill" placeholder="Eg: HTML, CSS, JS, etc.">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputRating" class="col-sm-2 col-form-label">Rating</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputRating" placeholder="Eg: Beginner, Intermediate, Proficient">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-dark" onclick="addContent()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./../js/feed_script.js"></script>
+</body>
+</html>
